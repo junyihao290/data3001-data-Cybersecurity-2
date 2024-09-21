@@ -1,9 +1,17 @@
 Project title: Improving Network Security by Classifying IoT Devices Based on Network Traffic Data Analysis
 Project description: 
 Over time, IoT devices have become increasingly integrated into people's daily lives and work environments. Duarte (2024) highlights that there are already more than 15 billion IoT devices worldwide by 2024, and predicts that the number will continue to rise. However, its security risks are becoming more and more significant with the popularity of devices, where the use of weak passwords or default passwords and open insecure service ports are considered two of the most significant vulnerabilities. At the same time, the security risks of IoT devices are exacerbated since household users do not master the necessary security knowledge (Pashamokhtari et al., 2023). To address such issues, our project focuses on network-level security by analyzing network traffic data to identify device types and detect unusual behaviour in time by establishing the network behaviour patterns of devices.
-How does this relate to previous work on this problem? (!!!!!)
+The project is related to studies in 2023 and 2021. The 2021 research identified device types by analyzing nat-post's ipfix traffic data, while the 2023 research added the concept of "concept drift", which believes that the behavior of iot devices changes over time and network environments. Therefore, the authors focused on analyzing traffic data across different times and network environments.
+
 Sources: 
 The project dataset contains IPFIX traffic records from 25 different IoT devices in the home network collected in the NAT-pre environment from June 25, 2019, to October 10, 2019.
+Workflow: 
+
+
+Project status:
+
+
+
 
 
 
