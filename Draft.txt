@@ -8,8 +8,8 @@ The project dataset contains IPFIX traffic records from 25 different IoT devices
 Workflow: 
 
 
-Project status:
-
+Project status (NEED TO FINISH WORKFLOW FIRST):
+At this stage, raw data for 25 IoT devices across 11 device types have been collected. 
 
 
 
