@@ -38,9 +38,11 @@ We wil need to clean up missing or 0 values. Any outlier detected after plotting
 We will remove any inconsistent collector names and IDs as they might lead to corrupted entries.  
 
 Sources:  
+
 The project dataset contains IPFIX traffic records from 25 different IoT devices in the home network collected in the NAT-pre-environment from June 25, 2019, to October 10, 2019. The datasets consist of various fields capturing the characteristics of network flows. 
 
 Project status:
+
 At this stage, we have  performed a brief analysis of the available dataset in relation to its basic features and therefore proposed a systematic approach to perform cleansing for our raw dataset. 
 
 More importantly, we have envisaged some fundamental features our final data product. We have also provided a strong justification on why this product is highly helpful to our client and outlined key objectives for this project. 
@@ -49,8 +51,9 @@ Further execution regarding the aforementioned steps of cleansing is still requi
 
 In terms how our data product could be employed for further analysis and modelling, logistic regression may be most desirable. However, it is not intended to have one model that will be able to perform all the classifications. This will be highly complex and may be prone to overfitting. Instead, we envisage that, for each classification, a model is employed to determine if the input data falls within the particular category. It is possible for an entry of data to generate positive outcomes from different models such that it points to different classifications. For such entrys, close analysis may be required as it is beyond the capability of our models to determine such classifications. Otherwise, these models will effectively classify the input data into different types of devices. On another note, it will be unlikely for all models to have the same set of key independent variables. This is for the simple reason that some independent variables may have strong explanatory and predictive force for some devices, but not others.
 
-Contribution :
-The project description and data descriptionwas co-written by Vishwa and Wanyue.
+Contribution:
+
+The project description and data description was co-written by Vishwa and Wanyue.
 The workflow was written by Shivani Kadiyala. Each specific stage of workflow would be allocated to each team member for further execution. 
-The project status was written by Jacky Gan. Jacky also conducts proofreading and editing. 
+The project status was written by Jacky Gan. Jacky is also responsible for any proofreading and editing. 
 The contrbution part was written by Junyi Hao.
