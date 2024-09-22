@@ -7,3 +7,11 @@ This project builds on the research in 2021 and 2023. The research in 2021 recog
 
 Sources:  
 The project dataset contains IPFIX traffic records from 25 different IoT devices in the home network collected in the NAT-pre environment from June 25, 2019, to October 10, 2019. 
+
+
+
+Contribution :
+The project description and data descriptionwas written by Vishwa and Wanyue.
+The workflow was written by shivani Kadiyala.
+The Project status was written by Jacky.
+The contrbution part was written by Junyihao.
