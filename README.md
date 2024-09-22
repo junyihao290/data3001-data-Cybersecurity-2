@@ -63,3 +63,10 @@ The project description and data description was co-written by Vishwa and Wanyue
 The workflow was written by Shivani Kadiyala. Each specific stage of workflow would be allocated to each team member for further execution. 
 The project status was written by Jacky Gan. Jacky is also responsible for proofreading and editing. 
 The contribution section was written by Junyi Hao.
+
+In the data cleaning step:
+Vishwa Processing 1. Timestamp and Timing fields data and 4. TCP Sequence Information and TCP Flags data.
+Wanyue Processing 2. IP Address, MAC Addresses and Port Information data and 3. Packet and traffic information data.
+Junyihao Processing 5. Network Interfaces and VLANs data and 7. Inter-arrival Times and Payload Statistics data.
+Jacky Gan Processing 6. Flow and Traffic Classification data.
+Shivani Kadiyala Processing 8. Collector Information data.
