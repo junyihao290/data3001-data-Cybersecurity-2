@@ -1,18 +1,23 @@
-Project title: Improving Network Security by Classifying IoT Devices Based on Network Traffic Data Analysis 
+**Project title: Improving Network Security by Classifying IoT Devices Based on Network Traffic Data Analysis**
 
-Project description:  
+**Project description:**
+What is the specific objective of this project?
 IoT devices have become increasingly integrated into daily lives and work environments as time goes on. Duarte (2024) highlights that more than 15 billion IoT devices are connected worldwide as of 2024, and predicts that the number will rise continuously. However, its security risks are becoming increasingly significant with the popularity of devices, where the use of weak passwords or default passwords and open insecure service ports are considered two of the most significant vulnerabilities. At the same time, the security risks of IoT devices are exacerbated since household users do not master the necessary security knowledge (Pashamokhtari et al., 2023). To address such issues, our project focuses on analysing the network data and weeding out any potential security vulnerabilities through the identification of common patterns in network activity and the recognition of abnormal activity. The importance of this project is that it will ultimately aid in protecting IoT ecosystems from cybersecurity attacks and breaches. 
 
+Why is it important or significant? 
+IoT devices are commonly found in every industry from medical devices to GPS trackers and sensors. This poses a credible safety risk if these devices are compromised by cyber attacks and breaches leading to financial and reputational damage to individuals and businesses. Unfortunately, most individuals are unaware of the heavy consequences of security maintenance through passwords and service ports and hence become vulnerable to easy targets. This project is a gateway for unsecured parties to keep a strong watch on their IoT devices and ensure they are performing as expected. By providing a system that can monitor the behaviour, this project provides a proactive solution to combat technology's evolving nature and potential potential threats. 
+
+How does this relate to previous work on this problem?
 This project builds on the research in 2021 and 2023. The research in 2021 recognized device types by analyzing nat-post IPFIX traffic data. This project also uses the idea of analyzing IPFIX data to monitor the network behavior of devices, but the project has higher device visibility and focuses on improving network security. The research in 2023 adds the concept of "concept drift", and the data for this project also involves dynamic changes.
 
-Sources:  
+**Sources:**  
 The project dataset contains IPFIX traffic records from 25 different IoT devices in the home network collected in the NAT-pre-environment from June 25, 2019, to October 10, 2019. The datasets consist of various fields capturing the characteristics of network flows. 
 
 
-Data description:
+**Data description:**
 
 
-Workflow:
+**Workflow:**
 To process the data so that it can be handled easily by the modelling team, we are cleansing it by removing irrelevant data, handling missing values and ensuring consistency of key fields.  
 
 A combination of R and Alteryx are to be used in the cleansing process. To begin with, we remove any rows with all fields as NULL. Then, each type of information in the dataset is handled separately and cleansed as mentioned in the following steps: 
@@ -42,7 +47,7 @@ We wil need to clean up missing or 0 values. Any outlier detected after plotting
 We will remove any inconsistent collector names and IDs as they might lead to corrupted entries.  
 
 
-Project status:
+**Project status:**
 
 At this stage, we have  performed a brief analysis of the available dataset in relation to its basic features and therefore proposed a systematic approach to perform cleansing for our raw dataset. 
 
@@ -52,9 +57,9 @@ Further execution regarding the aforementioned steps of cleansing is still requi
 
 In terms how our data product could be employed for further analysis and modelling, logistic regression may be most desirable. However, it is not intended to have one model that will be able to perform all the classifications. This will be highly complex and may be prone to overfitting. Instead, we envisage that, for each classification, a model is employed to determine if the input data falls within the particular category. It is possible for an entry of data to generate positive outcomes from different models such that it points to different classifications. For such entrys, close analysis may be required as it is beyond the capability of our models to determine such classifications. Otherwise, these models will effectively classify the input data into different types of devices. On another note, it will be unlikely for all models to have the same set of key independent variables. This is for the simple reason that some independent variables may have strong explanatory and predictive force for some devices, but not others.
 
-Contribution:
+**Contribution:**
 
 The project description and data description was co-written by Vishwa and Wanyue.
 The workflow was written by Shivani Kadiyala. Each specific stage of workflow would be allocated to each team member for further execution. 
-The project status was written by Jacky Gan. Jacky is also responsible for any proofreading and editing. 
-The contrbution part was written by Junyi Hao.
+The project status was written by Jacky Gan. Jacky is also responsible for proofreading and editing. 
+The contribution section was written by Junyi Hao.
