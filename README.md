@@ -72,3 +72,6 @@ Wanyue Processing 2. IP Address, MAC Addresses and Port Information data and 3. 
 Junyihao Processing 5. Network Interfaces and VLANs data and 7. Inter-arrival Times and Payload Statistics data.
 Jacky Gan Processing 6. Flow and Traffic Classification data.
 Shivani Kadiyala Processing 8. Collector Information data.
+
+Reference:
+1.Pashamokhtari, A, Okui, N, Nakahara, M, Kubota, A, Batista, G & Habibi Gharakheili, H 2023, 'Dynamic inference from IoT traffic flows under concept drifts in residential ISP networks', IEEE Internet of Things Journal, vol. 10, no. 17, pp. 15761-15773, accessed 22 September 2024, DOI: 10.1109/JIOT.2023.3265012.
