@@ -15,7 +15,7 @@ The project dataset contains IPFIX traffic records from 25 different IoT devices
 
 
 **Data description:**
-
+The final data product will be a combination of each variation of IoT devices present in the KDDI-IoT-2019 dataset divided into training, validation and testing datasets. This product will be primarily used to develop models aimed at identifying anomalous behaviour in IoT devices through the classification of threat levels or other classification schemes of the user’s choice. The aim is to remove any irrelevant or insignificant data, such as rows or columns that are either completely null or contain nonsensical values, such as mismatched data types, which would not contribute to the effectiveness of the model development process. The intended data product will be designed for broad accessibility with a reasonable number of observations in a manageable file size, making it suitable for modelling by most devices. The product will contain nine significant features: timestamp/timing field, IP address, MAC addresses and port information, packet and traffic information, TCP sequence information and TCP flags, network interfaces and VLANs, flow and traffic classification, inter-arrival times and payload statistics, collection information, and sources. Each of these features is intended to help the user determine inconsistencies in the network traffic of IoT devices without having inaccurate data resulting in overfitting or underfitting. By ensuring the dataset is clean and free from inaccurate or irrelevant data; more reliable and robust security models for IoT networks can be developed for classification which enables more accurate detection of security threats. 
 
 **Workflow:**
 To process the data so that it can be handled easily by the modelling team, we are cleansing it by removing irrelevant data, handling missing values and ensuring consistency of key fields.  
@@ -58,7 +58,8 @@ Further execution regarding the aforementioned steps of cleansing is still requi
 In terms how our data product could be employed for further analysis and modelling, logistic regression may be most desirable. However, it is not intended to have one model that will be able to perform all the classifications. This will be highly complex and may be prone to overfitting. Instead, we envisage that, for each classification, a model is employed to determine if the input data falls within the particular category. It is possible for an entry of data to generate positive outcomes from different models such that it points to different classifications. For such entrys, close analysis may be required as it is beyond the capability of our models to determine such classifications. Otherwise, these models will effectively classify the input data into different types of devices. On another note, it will be unlikely for all models to have the same set of key independent variables. This is for the simple reason that some independent variables may have strong explanatory and predictive force for some devices, but not others.
 
 **Contribution:**
-The project description and data description was co-written by Vishwa and Wanyue.
+The project description and data description was co-written by Vishwa Desai and Wanyue.
+The data description section was written by Vishwa Desai
 The workflow was written by Shivani Kadiyala. Each specific stage of workflow would be allocated to each team member for further execution. 
 The project status was written by Jacky Gan. Jacky is also responsible for proofreading and editing. 
 The contribution section was written by Junyi Hao. 
