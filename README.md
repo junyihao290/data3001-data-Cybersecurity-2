@@ -58,11 +58,12 @@ Further execution regarding the aforementioned steps of cleansing is still requi
 In terms how our data product could be employed for further analysis and modelling, logistic regression may be most desirable. However, it is not intended to have one model that will be able to perform all the classifications. This will be highly complex and may be prone to overfitting. Instead, we envisage that, for each classification, a model is employed to determine if the input data falls within the particular category. It is possible for an entry of data to generate positive outcomes from different models such that it points to different classifications. For such entrys, close analysis may be required as it is beyond the capability of our models to determine such classifications. Otherwise, these models will effectively classify the input data into different types of devices. On another note, it will be unlikely for all models to have the same set of key independent variables. This is for the simple reason that some independent variables may have strong explanatory and predictive force for some devices, but not others.
 
 **Contribution:**
-
 The project description and data description was co-written by Vishwa and Wanyue.
 The workflow was written by Shivani Kadiyala. Each specific stage of workflow would be allocated to each team member for further execution. 
 The project status was written by Jacky Gan. Jacky is also responsible for proofreading and editing. 
-The contribution section was written by Junyi Hao.
+The contribution section was written by Junyi Hao. 
+
+The way we participate in the project is through messenger group discussions and online team meetings.
 
 In the data cleaning step:
 Vishwa Processing 1. Timestamp and Timing fields data and 4. TCP Sequence Information and TCP Flags data.
