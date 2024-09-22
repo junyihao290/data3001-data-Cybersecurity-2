@@ -13,10 +13,6 @@ This project builds on the research in 2021 and 2023. The research in 2021 recog
 **Sources:**  
 The project dataset contains IPFIX traffic records from 25 different IoT devices in the home network collected in the NAT-pre-environment from June 25, 2019, to October 10, 2019. The datasets consist of various fields capturing the characteristics of network flows. 
 
-
-**Data Description:**
-The final data product will be a combination of each variation of IoT devices present in the raw KDDI-IoT-2019 dataset divided into training, validation and testing datasets. This product will be primarily used to develop models aimed at identifying anomalous behaviour in IoT devices through the classification of threat levels or other classification schemes of the user’s choice. The aim is to remove any irrelevant or insignificant data, such as rows or columns that are either completely null or contain nonsensical values, such as mismatched data types, which would not contribute to the effectiveness of the model development process. The intended data product will be designed for broad accessibility with a reasonable number of observations in a manageable file size, making it suitable for modelling by most devices. The product will contain nine significant features: timestamp/timing field, IP address, MAC addresses and port information, packet and traffic information, TCP sequence information and TCP flags, network interfaces and VLANs, flow and traffic classification, inter-arrival times and payload statistics, collection information, and sources. Each of these features is intended to help the user determine inconsistencies in the network traffic of IoT devices without having inaccurate data resulting in overfitting or underfitting. By ensuring the dataset is clean and free from inaccurate or irrelevant data; more reliable and robust security models for IoT networks can be developed for classification which enables more accurate detection of security threats. 
-
 **Workflow:**
 To process the data so that it can be handled easily by the modelling team, we are cleansing it by removing irrelevant data, handling missing values and ensuring consistency of key fields.  
 
@@ -44,8 +40,10 @@ We will look for unexpected application labels or reasons for flow termination.
 We will need to clean up missing or 0 values. Any outliers detected after plotting box plots will be removed as they indicate performance issues or potential threats.
 
 8. Collector Information:
-We will remove any inconsistent collector names and IDs as they might lead to corrupted entries.  
+We will remove any inconsistent collector names and IDs as they might lead to corrupted entries.
 
+**Data Description:**
+The final data product will be a combination of each variation of IoT devices present in the raw KDDI-IoT-2019 dataset divided into training, validation and testing datasets. This product will be primarily used to develop models aimed at identifying anomalous behaviour in IoT devices through the classification of threat levels or other classification schemes of the user’s choice. The aim is to remove any irrelevant or insignificant data, such as rows or columns that are either completely null or contain nonsensical values, such as mismatched data types, which would not contribute to the effectiveness of the model development process. The intended data product will be designed for broad accessibility with a reasonable number of observations in a manageable file size, making it suitable for modelling by most devices. The product will contain nine significant features: timestamp/timing field, IP address, MAC addresses and port information, packet and traffic information, TCP sequence information and TCP flags, network interfaces and VLANs, flow and traffic classification, inter-arrival times and payload statistics, collection information, and sources. Each of these features is intended to help the user determine inconsistencies in the network traffic of IoT devices without having inaccurate data resulting in overfitting or underfitting. By ensuring the dataset is clean and free from inaccurate or irrelevant data; more reliable and robust security models for IoT networks can be developed for classification which enables more accurate detection of security threats. 
 
 **Project status:**
 
