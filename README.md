@@ -2,12 +2,15 @@
 
 ## Project description:
 **What is the specific objective of this project?**
+
 IoT devices have become increasingly integrated into daily lives and work environments as time goes on. Duarte (2024) highlights that more than 15 billion IoT devices are connected worldwide as of 2024, and predicts that the number will rise continuously. However, its security risks are becoming increasingly significant with the popularity of devices, where the use of weak passwords or default passwords and open insecure service ports are considered two of the most significant vulnerabilities. At the same time, the security risks of IoT devices are exacerbated since household users do not master the necessary security knowledge (Pashamokhtari et al., 2023). To address such issues, our project focuses on analysing the network data and weeding out any potential security vulnerabilities through the identification of common patterns in network activity and the recognition of abnormal activity. 
 
 **Why is it important or significant?**
+
 IoT devices are commonly found in every industry from medical devices to GPS trackers and sensors. This poses a credible safety risk if these devices are compromised by cyber attacks and breaches leading to financial and reputational damage to individuals and businesses. Unfortunately, most individuals are unaware of the heavy consequences of security maintenance through passwords and service ports and hence become vulnerable to easy targets. This project is a gateway for unsecured parties to keep a strong watch on their IoT devices and ensure they are performing as expected. By providing a system that can monitor the behaviour, this project provides a proactive solution to combat technology's evolving nature and potential potential threats. 
 
 **How does this relate to previous work on this problem?**
+
 This project builds on the research in 2021 and 2023. The research in 2021 recognized device types by analyzing nat-post IPFIX traffic data. This project also uses the idea of analyzing IPFIX data to monitor the network behaviour of devices, but the project has higher device visibility and focuses on improving network security. The research in 2023 adds the concept of "concept drift", and the data for this project also involves dynamic changes.
 
 ## Sources:
