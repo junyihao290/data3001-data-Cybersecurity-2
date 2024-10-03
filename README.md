@@ -7,7 +7,7 @@ IoT devices have become increasingly integrated into daily lives and work enviro
 
 **Why is it important or significant?**
 
-IoT devices are commonly found in every industry from medical devices to GPS trackers and sensors. This poses a credible safety risk if these devices are compromised by cyber attacks and breaches leading to financial and reputational damage to individuals and businesses. Unfortunately, most individuals are unaware of the heavy consequences of security maintenance through passwords and service ports and hence become vulnerable to easy targets. This project is a gateway for unsecured parties to keep a strong watch on their IoT devices and ensure they are performing as expected. By providing a system that can monitor the behaviour, this project provides a proactive solution to combat technology's evolving nature and potential potential threats. 
+IoT devices are commonly found in every industry from medical devices to GPS trackers and sensors. This poses a credible safety risk if these devices are compromised by cyber attacks and breaches leading to financial and reputational damage to individuals and businesses. Unfortunately, most individuals are unaware of the heavy consequences of security maintenance through passwords and service ports and hence become vulnerable to easy targets. 
 
 **How does this relate to previous work on this problem?**
 
