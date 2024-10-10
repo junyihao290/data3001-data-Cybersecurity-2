@@ -62,6 +62,7 @@ Step – N/A would be replaced by other texts.
 For initialTCPFlags, reverseInitialTCPFlags, unionTCPFlags, reverseunionTCPFlags: we would use NF (No flags) for any missing values.
 
 c.	Count variables
+
 Step – Replace N/A with 0
 
 packetTotalCount, reversePacketTotalCount, octetTotalCount ，reverseOctetTotalCount, smallPacketCount, reversepacSmallPacketCount, largePacketCount, reverseLargePacketCount, reverseTcpUrgTotalCount，TcpUrgTotalCount: these variables record the size and number of network packets. N/A typically means no packet being transmitted.
@@ -76,6 +77,7 @@ reverseSmallPacketCount, reverseNonEmptyPacketCount, reverseBytesPerPacket, reve
 averageInterarrivalTime, reverseaverageInterarrivalTime: if there is no interarrival time, 0 could be a default value as there is no calculable time between packets.
 
 d.	Other variables
+
 For ipClassOfService: missing value would be replaced by 0x00 (default value). This variable represents class of IP service, used to determine priorities between network flows. 0x00 is the default value, meaning that no priority treatment is required. N/A would mean that this class of IP service is not recorded, which also means that no priority treatment is required.
 
 For firstEightNonEmptyPacketDirections, reverseFlowAttributes: missing value would be replaced by 00 (default value). For similar reasons regarding ipClassOfService, using 00 to replace any missing values is reasonable as 00 means ‘not recorded’ or ‘no direction’. 
