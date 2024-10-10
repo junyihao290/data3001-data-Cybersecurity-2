@@ -119,7 +119,9 @@ Wanyue z5356249@ad.unsw.edu.au, Junyi Hao z5377436@ad.unsw.edu.au
 Jacky Gan z5313781@ad.unsw.edu.au
 
 ##Contribution
+
 Data product:
+
 Workflow by Junyi Hao and Wanyue
 
 Code by Junyi Hao and Wanyue
@@ -142,5 +144,7 @@ Every member participates and communicates through group meetings (either remote
 
 ##References:
 1.Pashamokhtari, A, Okui, N, Nakahara, M, Kubota, A, Batista, G & Habibi Gharakheili, H 2023, 'Dynamic inference from IoT traffic flows under concept drifts in residential ISP networks', IEEE Internet of Things Journal, vol. 10, no. 17, pp. 15761-15773, accessed 22 September 2024, DOI: 10.1109/JIOT.2023.3265012.
+
 2.Duarte, F. (2024). Number of IoT Devices. Exploding Topics. Available at: https: https://explodingtopics.com/blog/number-of-iot-devices [Accessed 22 September 2024].
+
 3.IPv4 Mall (n.d.) Valid IPv4 address. Available at: https://www.ipv4mall.com/blogs/valid-ipv4-address/ (Accessed: 3 October 2024).
