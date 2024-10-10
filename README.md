@@ -153,7 +153,8 @@ Jacky is also responsible for drafting, editing and proofreading
 
 Every member participates and communicates through group meetings (either remote or in person).
 
-##References:
+## References:
+
 1.Pashamokhtari, A, Okui, N, Nakahara, M, Kubota, A, Batista, G & Habibi Gharakheili, H 2023, 'Dynamic inference from IoT traffic flows under concept drifts in residential ISP networks', IEEE Internet of Things Journal, vol. 10, no. 17, pp. 15761-15773, accessed 22 September 2024, DOI: 10.1109/JIOT.2023.3265012.
 
 2.Duarte, F. (2024). Number of IoT Devices. Exploding Topics. Available at: https: https://explodingtopics.com/blog/number-of-iot-devices [Accessed 22 September 2024].
