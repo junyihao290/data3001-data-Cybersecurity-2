@@ -43,6 +43,7 @@ For rows that have protocolIdentifier being 6 (TCP), we will delete the entire r
 We have divided all variables into four different categories (this is inspired from the 2023 research in how they selected key variables and characteristics):
 
 a.	Critical variables
+
 Step – If any important variables are N/A, we will delete the subject rows entirely.
 Important variables include: 
 
@@ -57,6 +58,7 @@ protocolIdentifier: it represents the type of protocol and is directly relevant 
 tcpSequenceNumber, reverseTcpSequenceNumber: TCP sequence numbers could be used to track the sequence of data packets. Missing these values would mean network flow could not be tracked.
 
 b.	Text variables:
+
 Step – N/A would be replaced by other texts.
 
 For initialTCPFlags, reverseInitialTCPFlags, unionTCPFlags, reverseunionTCPFlags: we would use NF (No flags) for any missing values.
