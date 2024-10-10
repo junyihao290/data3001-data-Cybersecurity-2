@@ -39,6 +39,7 @@ Our essential approach is to combine all steps to become a cleansing function. T
 For rows that have protocolIdentifier being 6 (TCP), we will delete the entire row if it has any N/A value. This is because TCP protocol is bidirectional transmission protocol. When a packet is sent from the source device to the destination device, a packet would typically be returned as a response. Hence, for IoT devices that has a TCP protocal, there should be no missing value in relation to variables regarding both forward and reverse. If there is any N/A value in our records, this will mean some key transmission information is lost, therefore impacting the integrity and accuracy of the entire connection. 
 
 6.	Handling missing value
+
 We have divided all variables into four different categories (this is inspired from the 2023 research in how they selected key variables and characteristics):
 
 a.	Critical variables
