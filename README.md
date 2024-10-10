@@ -24,7 +24,8 @@ It is critical for the modelling group to formulate a model to accurately identi
 ## Sources:
 The data of this project sourced from the IPFix flow records of 25 different IoT devices in the pre-NAT environment between 25 June 2019 and 10 October 2019. The dataset is constituted by fields based on network flow capture.
 
-##Workflow:
+## Workflow:
+
 For the purpose of cleansing the dataset such that the modelling team could easily employ, we will delete irrelevant data, deal with missing values and ensure the consistency of key fields.
 
 Our essential approach is to combine all steps to become a cleansing function. This function would perform all necessary cleansing to the subject datasets, including deleting meaningless rows (e.g. rows in theory cannot have N/A value but in reality they have), replacing some N/A values to 0, cleaning invalid IPv4 addresses, introducing further variables such as protocol identifiers and remote server IP address. Please see the attachment for the details of our code. As such, every dataset would be cleansed through the performance of following steps.
