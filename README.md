@@ -18,6 +18,7 @@ Accordingly, classification and management of these devices become crucial, espe
 This project’s contributions are based on the research products from 2021 and 2023. The 2021 research identifies the type of device through analysing post-NAT IPFix flow data. This project further utilises IPFix data to monitor the behaviour of IoT devices. One improvement is that this project has a higher visibility for devices and tends to enhance network safety. The 2023 research introduces the idea of ‘concept shift’, which refers to dynamic changes in data over time. The data of this project integrates this concept, acknowledging the evolving nature of data, ensuring the robustness and security of network systems. 
 
 **The significance of the data product**
+
 It is critical for the modelling group to formulate a model to accurately identify the type of IoT device. Our data product provides necessary information to assist in such classification. Our data regarding network flow include the type of protocol used, transport port, IP address etc. that may reveal the behaviours of these IoT devices. The modelling group may wish to use machine learning and other modelling methods to create efficient classification model. 
 
 ## Sources:
