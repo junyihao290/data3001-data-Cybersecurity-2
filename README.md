@@ -113,10 +113,15 @@ The dataset includes many observations. Each row represents an observation in th
 Our product contains 55 features. They can be mainly divided into the following categories:
 
 •	Time related features: such as flowStartMilliseconds/flowEndMilliseconds to record the beginning and ending of network flows.
+
 •	Protocol related features: such as protocolIdentifier to indicate the type of protocol used (e.g. TCP, UDP)
+
 •	Address and transport port features: such as sourceIPv4Address / destinationIPv4Address and sourceTransportPort / destinationTransportPort
+
 •	Packets and bytes features: such as packetTotalCount / octetTotalCount to represent the total packets transmitted
+
 •	TCP related features: such as tcpSequenceNumber to track the sequence of packet
+
 •	Other: such as flowEndReason to describe the reason why a flow ended
 
 ## Purpose:
