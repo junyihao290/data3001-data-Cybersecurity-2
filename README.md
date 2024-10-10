@@ -97,6 +97,7 @@ This variable checks if a device is connected to a remote server. A remote serve
 ## Data Description:
 
 **Accessing the product**
+
 The data would be stored in the format of data.frame in R. It could be loaded through read.csv() function, using view(), summary() and other R functions to further explore. The datasets are stored in terms of rows and columns. Each row represents a network flow and each column shows a feature of that flow. 
 
 Accessibility was a major factor kept in mind when developing the data product. Instead of developing a large singular file that may not be accessible to certain devices used by the modelling team, the product is broken down into 25 cleaned datasets. Each dataset is an IoT device.  This allows for the modelling team to access the data without compromising the integrity of the product. The modelling team should utilise all the datasets for their models to ensure there is diversity within the data without bias and overfitting in their discoveries.
@@ -104,9 +105,11 @@ Accessibility was a major factor kept in mind when developing the data product. 
 Furthermore, the separation of the dataset allows for the modelling team to deep dive into each IoT and gain a more holistic understanding of why protecting IoT devices from cybersecurity attacks is crucial. The breakdown also allows for tailored approaches to pre-processing and modelling for improved performance and optimises data retrieval time which would help the overall run time and processing power of the modelling team’s models.
 
 **Observations**
+
 The dataset includes many observations. Each row represents an observation in the form of network flow, and records all required information regarding the transmission between two IoT devices.
 
 **Features (Columns)**
+
 Our product contains 55 features. They can be mainly divided into the following categories:
 
 •	Time related features: such as flowStartMilliseconds/flowEndMilliseconds to record the beginning and ending of network flows.
@@ -116,7 +119,8 @@ Our product contains 55 features. They can be mainly divided into the following 
 •	TCP related features: such as tcpSequenceNumber to track the sequence of packet
 •	Other: such as flowEndReason to describe the reason why a flow ended
 
-##Purpose:
+## Purpose:
+
 Our data product is mainly network flow data. It includes detailed information regarding each flow transmitted between devices, such as IP addresses, protocol types, the number of packets, the duration of each flow etc. It could be mainly applied in analysis regarding network safety and device behaviour. Classification models and cluster analysis may also be helpful in analysing the network flow. 
 
 In terms of further modelling and analysis, a classification model aims to analyse network flow features to identify the type of network device would be desirable. In relation to model selection, random forest is a got fit with the data product. Random forest is capable of handling a large number of features or variables (there are 55 variables in the data product). Random forest could automatically evaluate the importance of each variable, helping to identify the variables that contribute most to prediction, being the main objective of this project. Random forest also performs well against noise and outliers, and is helpful in preventing any outfitting. Particularly, it provides decent stability in terms of prediction results, by combining multiple decisions trees together. Random forest is therefore highly effective in further fine tuning of the model, especially when the modelling group seeks to analyse device behaviour and network activity.
@@ -125,7 +129,7 @@ Should any assistance be required, please contact
 Wanyue z5356249@ad.unsw.edu.au, Junyi Hao z5377436@ad.unsw.edu.au
 Jacky Gan z5313781@ad.unsw.edu.au
 
-##Contribution
+## Contribution
 
 Data product:
 
